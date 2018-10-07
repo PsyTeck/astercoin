@@ -1,0 +1,6 @@
+usr/local/bin/astercoin-qt usr/bin
+share/pixmaps/astercoin32.xpm usr/share/pixmaps
+share/pixmaps/astercoin16.xpm usr/share/pixmaps
+share/pixmaps/astercoin128.png usr/share/pixmaps
+debian/astercoin-qt.desktop usr/share/applications
+debian/astercoin-qt.protocol usr/share/kde4/services/

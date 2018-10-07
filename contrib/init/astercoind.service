@@ -1,0 +1,22 @@
+[Unit]
+Description=Astercoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=astercoin
+Group=astercoin
+
+Type=forking
+PIDFile=/var/lib/astercoind/astercoind.pid
+ExecStart=/usr/bin/astercoind -daemon -pid=/var/lib/astercoind/astercoind.pid \
+-conf=/etc/astercoin/astercoin.conf -datadir=/var/lib/astercoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

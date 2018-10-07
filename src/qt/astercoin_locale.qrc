@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/astercoin_bg.qm</file>
+        <file alias="de">locale/astercoin_de.qm</file>
+        <file alias="en">locale/astercoin_en.qm</file>
+        <file alias="es">locale/astercoin_es.qm</file>
+        <file alias="fi">locale/astercoin_fi.qm</file>
+        <file alias="fr">locale/astercoin_fr.qm</file>
+        <file alias="it">locale/astercoin_it.qm</file>
+        <file alias="ja">locale/astercoin_ja.qm</file>
+        <file alias="pl">locale/astercoin_pl.qm</file>
+        <file alias="pt">locale/astercoin_pt.qm</file>
+        <file alias="ru">locale/astercoin_ru.qm</file>
+        <file alias="sk">locale/astercoin_sk.qm</file>
+        <file alias="sv">locale/astercoin_sv.qm</file>
+        <file alias="vi">locale/astercoin_vi.qm</file>
+        <file alias="zh_CN">locale/astercoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/astercoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
