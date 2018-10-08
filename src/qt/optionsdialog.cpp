@@ -92,11 +92,11 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("ASTERCOIN-light"), QVariant("light"));
-    ui->theme->addItem(QString("ASTERCOIN-light-hires"), QVariant("light-hires"));
-    ui->theme->addItem(QString("ASTERCOIN-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("ASTERCOIN-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("ASTERCOIN-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("ATE-light"), QVariant("light"));
+    ui->theme->addItem(QString("ATE-light-hires"), QVariant("light-hires"));
+    ui->theme->addItem(QString("ATE-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("ATE-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("ATE-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");

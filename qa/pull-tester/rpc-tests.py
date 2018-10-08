@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "ASTERCOIND" not in os.environ:
-    os.environ["ASTERCOIND"] = buildDir + '/src/astercoind' + EXEEXT
-if "ASTERCOINCLI" not in os.environ:
-    os.environ["ASTERCOINCLI"] = buildDir + '/src/astercoin-cli' + EXEEXT
+if "ATED" not in os.environ:
+    os.environ["ATED"] = buildDir + '/src/astercoind' + EXEEXT
+if "ATECLI" not in os.environ:
+    os.environ["ATECLI"] = buildDir + '/src/astercoin-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9

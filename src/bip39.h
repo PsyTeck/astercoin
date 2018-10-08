@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef ASTERCOIN_BIP39_H
-#define ASTERCOIN_BIP39_H
+#ifndef ATE_BIP39_H
+#define ATE_BIP39_H
 
 #include "support/allocators/secure.h"
 

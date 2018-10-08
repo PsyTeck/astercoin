@@ -34,8 +34,8 @@
 
 // Uncomment the following line to enable debugging messages
 // or enable on a per file basis prior to inclusion of util.h
-//#define ENABLE_ASTERCOIN_DEBUG
-#ifdef ENABLE_ASTERCOIN_DEBUG
+//#define ENABLE_ATE_DEBUG
+#ifdef ENABLE_ATE_DEBUG
 #define DBG( x ) x
 #else
 #define DBG( x ) 

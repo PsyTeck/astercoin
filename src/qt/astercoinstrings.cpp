@@ -119,7 +119,7 @@ QT_TRANSLATE_NOOP("astercoin-core", ""
 "testnet: %s)"),
 QT_TRANSLATE_NOOP("astercoin-core", ""
 "InstantSend doesn't support sending values that high yet. Transactions are "
-"currently limited to %1 ASTERCOIN."),
+"currently limited to %1 ATE."),
 QT_TRANSLATE_NOOP("astercoin-core", ""
 "InstantSend requires inputs with at least %d confirmations, you might need "
 "to wait a few minutes and try again."),
@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("astercoin-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("astercoin-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this "
-"transaction that are not equal 1000 ASTERCOIN."),
+"transaction that are not equal 1000 ATE."),
 QT_TRANSLATE_NOOP("astercoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"ASTERCOIN."),
+"ATE."),
 QT_TRANSLATE_NOOP("astercoin-core", ""
 "Unsupported argument -socks found. Setting SOCKS version isn't possible "
 "anymore, only SOCKS5 proxies are supported."),
@@ -403,7 +403,7 @@ QT_TRANSLATE_NOOP("astercoin-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("astercoin-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("astercoin-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("astercoin-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("astercoin-core", "Keep N ASTERCOIN anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("astercoin-core", "Keep N ATE anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("astercoin-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("astercoin-core", "Keep the transaction memory pool below <n> megabytes (default: %u)"),
 QT_TRANSLATE_NOOP("astercoin-core", "Keypool ran out, please call keypoolrefill first"),

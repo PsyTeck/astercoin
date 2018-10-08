@@ -1,7 +1,7 @@
 // Copyright (c) 2014-2017 The Dash Core developers
 // Distributed under the MIT software license, see the accompanying
-#ifndef ASTERCOIN_HDCHAIN_H
-#define ASTERCOIN_HDCHAIN_H
+#ifndef ATE_HDCHAIN_H
+#define ATE_HDCHAIN_H
 
 #include "key.h"
 #include "sync.h"
@@ -149,4 +149,4 @@ public:
     std::string GetKeyPath() const;
 };
 
-#endif // ASTERCOIN_HDCHAIN_H
+#endif // ATE_HDCHAIN_H

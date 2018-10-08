@@ -57,9 +57,9 @@ public:
      */
     enum Unit
     {
-        ASTERCOIN,
-        mASTERCOIN,
-        uASTERCOIN,
+        ATE,
+        mATE,
+        uATE,
         duffs
     };
 

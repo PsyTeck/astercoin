@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy astercoind.init to /etc/init.d/astercoind. Test by running `service astercoind start`.
 
 Using this script, you can adjust the path and flags to the astercoind program by
-setting the ASTERCOIND and FLAGS environment variables in the file
+setting the ATED and FLAGS environment variables in the file
 /etc/sysconfig/astercoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CAstercoinNetwork: ASTERCOIN NETWORK (ROOT)
+	CAstercoinNetwork: ATE NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CAstercoinProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// ASTERCOIN NETWORK (ROOT)
+	// ATE NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=ASTERCOINDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=ATEDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

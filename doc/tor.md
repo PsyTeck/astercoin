@@ -1,4 +1,4 @@
-TOR SUPPORT IN ASTERCOIN CORE
+TOR SUPPORT IN ATE CORE
 =======================
 
 It is possible to run Astercoin Core as a Tor hidden service, and connect to such services.

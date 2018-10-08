@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(ASTERCOIN);
-    unitlist.append(mASTERCOIN);
-    unitlist.append(uASTERCOIN);
+    unitlist.append(ATE);
+    unitlist.append(mATE);
+    unitlist.append(uATE);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case ASTERCOIN:
-    case mASTERCOIN:
-    case uASTERCOIN:
+    case ATE:
+    case mATE:
+    case uATE:
     case duffs:
         return true;
     default:
@@ -46,9 +46,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case ASTERCOIN: return QString("ASTERCOIN");
-            case mASTERCOIN: return QString("mASTERCOIN");
-            case uASTERCOIN: return QString::fromUtf8("μASTERCOIN");
+            case ATE: return QString("ATE");
+            case mATE: return QString("mATE");
+            case uATE: return QString::fromUtf8("μATE");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -57,9 +57,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case ASTERCOIN: return QString("tASTERCOIN");
-            case mASTERCOIN: return QString("mtASTERCOIN");
-            case uASTERCOIN: return QString::fromUtf8("μtASTERCOIN");
+            case ATE: return QString("tATE");
+            case mATE: return QString("mtATE");
+            case uATE: return QString::fromUtf8("μtATE");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -72,9 +72,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case ASTERCOIN: return QString("Astercoin");
-            case mASTERCOIN: return QString("Milli-Astercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uASTERCOIN: return QString("Micro-Astercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case ATE: return QString("Astercoin");
+            case mATE: return QString("Milli-Astercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uATE: return QString("Micro-Astercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Astercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -83,9 +83,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case ASTERCOIN: return QString("TestAstercoins");
-            case mASTERCOIN: return QString("Milli-TestAstercoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uASTERCOIN: return QString("Micro-TestAstercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case ATE: return QString("TestAstercoins");
+            case mATE: return QString("Milli-TestAstercoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uATE: return QString("Micro-TestAstercoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestAstercoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -96,9 +96,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case ASTERCOIN:  return 100000000;
-    case mASTERCOIN: return 100000;
-    case uASTERCOIN: return 100;
+    case ATE:  return 100000000;
+    case mATE: return 100000;
+    case uATE: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -108,9 +108,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case ASTERCOIN: return 8;
-    case mASTERCOIN: return 5;
-    case uASTERCOIN: return 2;
+    case ATE: return 8;
+    case mATE: return 5;
+    case uATE: return 2;
     case duffs: return 0;
     default: return 0;
     }

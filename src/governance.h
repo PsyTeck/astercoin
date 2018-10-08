@@ -5,7 +5,7 @@
 #ifndef GOVERNANCE_H
 #define GOVERNANCE_H
 
-//#define ENABLE_ASTERCOIN_DEBUG
+//#define ENABLE_ATE_DEBUG
 
 #include "bloom.h"
 #include "cachemap.h"

@@ -1,5 +1,5 @@
-#ifndef BITCOIN_TEST_TEST_ASTERCOIN_H
-#define BITCOIN_TEST_TEST_ASTERCOIN_H
+#ifndef BITCOIN_TEST_TEST_ATE_H
+#define BITCOIN_TEST_TEST_ATE_H
 
 #include "chainparamsbase.h"
 #include "key.h"
